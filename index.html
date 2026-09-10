@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programming 1 — สไลด์ทั้งหมด</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --primary: #1a237e;
+  --accent:  #1565c0;
+  --light:   #e3f2fd;
+  --bg:      #ffffff;
+  --text:    #212121;
+  --muted:   #546e7a;
+}
+body {
+  font-family: 'Sarabun', 'Noto Sans Thai', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(160deg, #0d1b2a 0%, #1a237e 55%, #1565c0 100%);
+  min-height: 100vh;
+  color: var(--text);
+  padding: clamp(24px, 5vw, 64px) clamp(16px, 6vw, 80px);
+}
+header {
+  text-align: center;
+  color: #fff;
+  margin-bottom: clamp(28px, 4vw, 48px);
+}
+header h1 {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 700;
+}
+header p {
+  margin-top: 10px;
+  font-size: clamp(14px, 1.6vw, 18px);
+  color: #cfd8dc;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card {
+  background: var(--bg);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 2px solid transparent;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 36px rgba(0,0,0,0.35);
+  border-color: var(--accent);
+}
+.card .week-num {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.card h2 {
+  font-size: clamp(19px, 2vw, 23px);
+  color: var(--primary);
+  font-weight: 700;
+}
+.card .meta {
+  font-size: 13px;
+  color: var(--muted);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.card .badge {
+  display: inline-block;
+  background: var(--light);
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.card .badge.extra {
+  background: #fff3e0;
+  color: #e65100;
+}
+footer {
+  text-align: center;
+  color: #cfd8dc;
+  font-size: 13px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Programming 1 — สไลด์ทั้งหมด</h1>
+  <p>Week 1–7 · คลิกการ์ดเพื่อเปิดสไลด์ของแต่ละสัปดาห์</p>
+</header>
+
+<div class="grid">
+
+  <a class="card" href="slides/week_01_in/index.html">
+    <span class="week-num">Week 1</span>
+    <h2>In (รับข้อมูลเข้า)</h2>
+    <div class="meta"><span class="badge">13 สไลด์</span></div>
+  </a>
+
+  <a class="card" href="slides/week_02_out/index.html">
+    <span class="week-num">Week 2</span>
+    <h2>Out (แสดงผล)</h2>
+    <div class="meta"><span class="badge">6 สไลด์</span></div>
+  </a>
+
+  <a class="card" href="slides/week_03_selection/index.html">
+    <span class="week-num">Week 3</span>
+    <h2>Selection (เงื่อนไข)</h2>
+    <div class="meta"><span class="badge">8 สไลด์</span></div>
+  </a>
+
+  <a class="card" href="slides/week_04_loop/index.html">
+    <span class="week-num">Week 4</span>
+    <h2>Loop (การวนซ้ำ)</h2>
+    <div class="meta"><span class="badge">12 สไลด์</span></div>
+  </a>
+
+  <a class="card" href="slides/week_05_nested_loop/index.html">
+    <span class="week-num">Week 5</span>
+    <h2>Nested Loop</h2>
+    <div class="meta"><span class="badge">10 สไลด์</span></div>
+  </a>
+
+  <a class="card" href="slides/week_06_function/index.html">
+    <span class="week-num">Week 6</span>
+    <h2>Function (ฟังก์ชัน)</h2>
+    <div class="meta">
+      <span class="badge">79 สไลด์</span>
+      <span class="badge extra">ฉบับเต็ม 15 หัวข้อ</span>
+    </div>
+  </a>
+
+  <a class="card" href="slides/week_07_exception/index.html">
+    <span class="week-num">Week 7</span>
+    <h2>Exception (ข้อผิดพลาด)</h2>
+    <div class="meta">
+      <span class="badge">84 สไลด์</span>
+      <span class="badge extra">ฉบับเต็ม 15 หัวข้อ</span>
+    </div>
+  </a>
+
+</div>
+
+<footer>Programming 1 · สัปดาห์ 1–7</footer>
+
+</body>
+</html>

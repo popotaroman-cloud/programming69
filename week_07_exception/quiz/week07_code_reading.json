@@ -1,0 +1,212 @@
+[
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\na = 10\nb = 8\ntry:\n    result = a / b\n    print(result)\nexcept ZeroDivisionError:\n    print(\"หารด้วยศูนย์ไม่ได้\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except ZeroDivisionError] เฉลย: 1.25",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "1.25",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\na = 10\nb = 9\ntry:\n    result = a / b\n    print(result)\nexcept ZeroDivisionError:\n    print(\"หารด้วยศูนย์ไม่ได้\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except ZeroDivisionError] เฉลย: 1.1111111111111112",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "1.1111111111111112",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\na = 10\nb = 0\ntry:\n    result = a / b\n    print(result)\nexcept ZeroDivisionError:\n    print(\"หารด้วยศูนย์ไม่ได้\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except ZeroDivisionError] เฉลย: หารด้วยศูนย์ไม่ได้",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "หารด้วยศูนย์ไม่ได้",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\na = 10\nb = 5\ntry:\n    result = a / b\n    print(result)\nexcept ZeroDivisionError:\n    print(\"หารด้วยศูนย์ไม่ได้\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except ZeroDivisionError] เฉลย: 2.0",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "2.0",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\ntext_value = \"13\"\ntry:\n    number = int(text_value)\n    print(number)\nexcept ValueError:\n    print(\"แปลงเป็นตัวเลขไม่ได้\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except ValueError] เฉลย: 13",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "13",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\ntext_value = \"89\"\ntry:\n    number = int(text_value)\n    print(number)\nexcept ValueError:\n    print(\"แปลงเป็นตัวเลขไม่ได้\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except ValueError] เฉลย: 89",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "89",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\ntext_value = \"58\"\ntry:\n    number = int(text_value)\n    print(number)\nexcept ValueError:\n    print(\"แปลงเป็นตัวเลขไม่ได้\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except ValueError] เฉลย: 58",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "58",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\ntext_value = \"abc\"\ntry:\n    number = int(text_value)\n    print(number)\nexcept ValueError:\n    print(\"แปลงเป็นตัวเลขไม่ได้\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except ValueError] เฉลย: แปลงเป็นตัวเลขไม่ได้",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "แปลงเป็นตัวเลขไม่ได้",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\nnums = [8, 2, 5]\ntry:\n    print(nums[5])\nexcept IndexError:\n    print(\"index เกินขอบเขต\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except IndexError] เฉลย: index เกินขอบเขต",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "index เกินขอบเขต",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\nnums = [6, 2, 4]\ntry:\n    print(nums[5])\nexcept IndexError:\n    print(\"index เกินขอบเขต\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except IndexError] เฉลย: index เกินขอบเขต",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "index เกินขอบเขต",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\nnums = [3, 8, 1]\ntry:\n    print(nums[5])\nexcept IndexError:\n    print(\"index เกินขอบเขต\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except IndexError] เฉลย: index เกินขอบเขต",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "index เกินขอบเขต",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\nnums = [1, 8, 9]\ntry:\n    print(nums[1])\nexcept IndexError:\n    print(\"index เกินขอบเขต\")\n```",
+    "points": "1.00",
+    "feedback": "[try/except IndexError] เฉลย: 8",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "8",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\nn = 2\ntry:\n    result = n / (n - n)\nexcept ZeroDivisionError:\n    result = -1\nprint(result)\n```",
+    "points": "1.00",
+    "feedback": "[except คำนวณค่าสำรอง] เฉลย: -1",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "-1",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "type": "short_answer",
+    "text": "ผลลัพธ์ (output) ที่ได้จากการรันโค้ดด้านล่างคืออะไร\n\n```python\nn = 4\ntry:\n    result = n / (n - n)\nexcept ZeroDivisionError:\n    result = -1\nprint(result)\n```",
+    "points": "1.00",
+    "feedback": "[except คำนวณค่าสำรอง] เฉลย: -1",
+    "answer_mode": "true_value",
+    "level": 7,
+    "year": 2569,
+    "options": [
+      {
+        "text": "-1",
+        "is_correct": true
+      }
+    ]
+  }
+]
